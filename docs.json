@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Glif API Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,22 +11,15 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Getting Started",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": ["introduction", "quickstart", "development"]
+            "group": "Introduction",
+            "pages": ["introduction"]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "group": "API Basics",
+            "pages": ["getting-started", "building-with-ai-assistants"]
           }
         ]
       },
@@ -34,16 +27,27 @@
         "tab": "API Reference",
         "groups": [
           {
-            "group": "API Documentation",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint Examples",
+            "group": "Core API",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "reading-and-writing-data-via-the-api",
+              "embed-iframe-communication",
+              "sample-code"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Use Cases",
+        "groups": [
+          {
+            "group": "Project Ideas",
+            "pages": [
+              "what-can-i-make-with-the-glif-api/README",
+              "what-can-i-make-with-the-glif-api/browser-extensions",
+              "what-can-i-make-with-the-glif-api/discord-bots",
+              "what-can-i-make-with-the-glif-api/social-media-bots",
+              "what-can-i-make-with-the-glif-api/games",
+              "what-can-i-make-with-the-glif-api/experimental-projects"
             ]
           }
         ]
@@ -52,19 +56,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Glif App",
+          "href": "https://glif.app",
+          "icon": "home"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Discord",
+          "href": "https://glif.app/discord",
+          "icon": "discord"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "GitHub",
+          "href": "https://github.com/glifxyz",
+          "icon": "github"
         }
       ]
     }
@@ -77,20 +81,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://glif.app/discord"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://glif.app"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://glif.app/discord",
+      "github": "https://github.com/glifxyz",
+      "twitter": "https://twitter.com/glifxyz"
     }
   }
 }
