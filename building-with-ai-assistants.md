@@ -10,8 +10,6 @@ For your convenience, we've created a `.txt` file of this API documentation that
 2. Share it with your preferred AI assistant
 3. Describe what you want to build
 
-{% file src="../.gitbook/assets/apidocs.txt" %}
-
 ### Example System Prompt
 
 Here's what the AI assistants will understand about our API:
