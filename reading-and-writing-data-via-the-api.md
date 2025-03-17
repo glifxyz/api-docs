@@ -1,8 +1,8 @@
 # 📙 Reading & writing data
 
-{% hint style="danger" %}
+<Warning>
 These endpoints are highly beta and subject to change
-{% endhint %}
+</Warning>
 
 For fetching info about a specific glif, user, or a specific glifRun.
 
@@ -105,7 +105,7 @@ You can then run it this glif:
 ```sh
 curl -X POST "https://simple-api.glif.app" \
   -H "Authorization: Bearer $GLIF_API_TOKEN" \
-  -d '{"id": "clzs7eoan0003n1xgod8grhaj", "query": "who is the coolest software developer of all time?"'}
+  -d '{"id": "clzs7eoan0003n1xgod8grhaj", "query": "who is the coolest software developer of all time?"}'
 ```
 
 To view raw glif data, you can fork or build something on glif.app and use the "Debug" button bottom-left.
