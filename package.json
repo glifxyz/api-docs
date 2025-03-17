@@ -1,0 +1,23 @@
+{
+  "name": "@glifxyz/api-docs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Documentation and example code for the glif.app API",
+  "license": "MIT",
+  "author": "Glif",
+  "homepage": "https://glif.app/api",
+  "bugs": "https://discord.gg/glif",
+  "engines": {
+    "node": ">= 20"
+  },
+  "packageManager": "pnpm@10.4.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "mintlify dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mintlify": "^4.0.436"
+  }
+
+}
